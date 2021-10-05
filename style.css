@@ -1,0 +1,70 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/a4/17/c7/a417c7a3f274f9b22a7e2ab1d304ee72.jpg");
+    color: white;
+    margin: 5% 5%;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+header {
+    color: white;
+    font-size: 5em;
+    text-align: center;
+}
+
+.game-container {
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+#user-rock,
+#user-paper,
+#user-scissors,
+#com-rock,
+#com-paper,
+#com-scissors {
+    display: none;
+}
+
+.options-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+}
+
+#result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    display: none;
+}
+
+#button {
+    height: 50px;
+    width: 180px;
+    margin-top: 10px;
+    background-color: #FFC434;
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.user-container, .computer-container{
+    border: 3px solid #FFC434;
+    height: 500px;
+    width: 500px;
+}
+
+#user-result, #computer-result{
+    height: 300px;
+    width: 300px;
+}
+
+#game-container h1{
+    text-align: center;
+}
